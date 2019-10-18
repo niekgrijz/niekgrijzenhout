@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <p id="gameover"></p>
+    <div id=tijd></div>
+    <img id="fish" src="images/1.png" alt="" />
+
+    <form id="naam" method="get">
+        <label id="titel" for="naam">Typ een naam:</label>
+        <input type="text" name="naam" id="text" />
+        <button id="butt" type="submit">OK</button>
+
+
+
+        <form name="imageForm">
+            <table>
+                <tr>
+                    <td>
+                        <input onclick="displayImage();" type=button value="verander achtergrond">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/5.png" name="canvas" id="background" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
+
+        <script src="js/fishy.js"></script>
+</body>
+
+</html>
